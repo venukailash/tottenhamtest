@@ -1,0 +1,7 @@
+2021-05-19T14:14:44.934Z INFO @wdio/cli:launcher: Run onPrepare hook
+2021-05-19T14:14:44.936Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2021-05-19T14:14:44.937Z INFO @wdio/local-runner: Start worker 0-0 with arg: run,wdio.conf.ts
+2021-05-19T14:14:50.922Z DEBUG @wdio/local-runner: Runner 0-0 finished with exit code 0
+2021-05-19T14:14:50.922Z INFO @wdio/cli:launcher: Run onComplete hook
+2021-05-19T14:14:50.945Z INFO @wdio/local-runner: Shutting down spawned worker
+2021-05-19T14:14:51.197Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
