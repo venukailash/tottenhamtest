@@ -1,0 +1,64 @@
+{
+	"id": "a9caf32a-0e00-4963-81c1-4abb787b6ef2",
+	"name": "New Environment",
+	"values": [
+		{
+			"key": "id",
+			"value": "60a65636fc6e8c7a7847e70a",
+			"enabled": true
+		},
+		{
+			"key": "name",
+			"value": "suresh",
+			"enabled": true
+		},
+		{
+			"key": "description",
+			"value": "New York",
+			"enabled": true
+		},
+		{
+			"key": "amount",
+			"value": "10",
+			"enabled": true
+		},
+		{
+			"key": "availability",
+			"value": "true",
+			"enabled": true
+		},
+		{
+			"key": "",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "names",
+			"value": "[\"abc\",\"Jack Bauer\",\"Jack Bauer\",\"ABCD\",\"Jack Bauer\",\"Jack Bauer\",\"Jack Bauer\",\"Jack Bauer\",\"Jack Bauer\",\"Jack Bauer\",\"Jack Bauer\",\"Jack Bauer\",\"Jack Bauer\",\"Jack Bauer\",\"Jack Bauer\",\"Jack Bauer\",\"Jack Bauer\",\"Jack Bauer\",\"Jack Bauer\",\"Jack Bauer\",\"Jack Bauer\",\"Jack Bauer\",\"Jack Bauer\",\"Jack Bauer\",\"Jack Bauer\",\"Jack Bauer\",\"Jack Bauer\"]",
+			"enabled": true
+		},
+		{
+			"key": "ids",
+			"value": "[\"60a65636fc6e8c7a7847e70a\",\"60a65749fc6e8c7a7847e70c\",\"60a65750fc6e8c7a7847e70e\",\"60a6575afc6e8c7a7847e710\",\"60a65760fc6e8c7a7847e712\",\"60a657d5fc6e8c7a7847e714\",\"60a658731e95e94ee550252f\",\"60a65a421e95e94ee5502531\",\"60a65b0f1e95e94ee5502533\",\"60a660c71e95e94ee5502535\",\"60a665291e95e94ee5502537\",\"60a666bd1e95e94ee5502539\",\"60a6691f1e95e94ee550253b\",\"60a6693a1e95e94ee550253d\",\"60a66a721e95e94ee550253f\",\"60a66a781e95e94ee5502541\",\"60a66a7e1e95e94ee5502543\",\"60a66aae1e95e94ee5502546\",\"60a66f441e95e94ee5502548\",\"60a670df1e95e94ee550254a\",\"60a670ec1e95e94ee550254c\",\"60a672001e95e94ee550254e\",\"60a6721e1e95e94ee5502550\",\"60a672551e95e94ee5502552\",\"60a6730b1e95e94ee5502554\",\"60a673721e95e94ee5502556\",\"60a6737f1e95e94ee5502558\"]",
+			"enabled": true
+		},
+		{
+			"key": "availabilities",
+			"value": "[true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true]",
+			"enabled": true
+		},
+		{
+			"key": "descriptions",
+			"value": "[\"New York\",\"New York\",\"New York\",\"New York\",\"New York\",\"New York\",\"New York\",\"New York\",\"New York\",\"New York\",\"New York\",\"New York\",\"New York\",\"New York\",\"New York\",\"New York\",\"New York\",\"New York\",\"New York\",\"New York\",\"New York\",\"New York\",\"New York\",\"New York\",\"New York\",\"New York\",\"New York\"]",
+			"enabled": true
+		},
+		{
+			"key": "amounts",
+			"value": "[10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10]",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2021-06-07T21:01:25.131Z",
+	"_postman_exported_using": "Postman/8.5.1"
+}

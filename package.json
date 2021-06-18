@@ -14,7 +14,6 @@
     "test:features": "wdio run wdio.BUILD.conf.ts",
     "wdio": "wdio run wdio.conf.ts"
   },
-  "dependencies": {},
   "devDependencies": {
     "@types/jest": "^26.0.21",
     "@typescript-eslint/eslint-plugin": "^4.19.0",

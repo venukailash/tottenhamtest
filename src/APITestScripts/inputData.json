@@ -1,0 +1,16 @@
+{
+  "id": "b659f47d-6ef7-955e-3b80-be55946e6b9e",
+  "name": "Postman Globals",
+  "values": [
+    {
+      "key": "name",
+      "value": "Chandrakala Gadigeppa",
+      "description": "",
+      "type": "text",
+      "enabled": true
+    }
+  ],
+  "_postman_variable_scope": "globals",
+  "_postman_exported_at": "2021-05-27T15:36:49.274Z",
+  "_postman_exported_using": "Postman/5.5.5"
+}

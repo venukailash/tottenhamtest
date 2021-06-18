@@ -1,0 +1,57 @@
+{
+	"variables": [],
+	"info": {
+		"name": "test_collection1",
+		"_postman_id": "567a40e7-8aba-cd5e-dda8-c3457b148903",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "testRequest",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"",
+							"",
+							"",
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"",
+							"",
+							"tests[\"Body matches string\"] = responseBody.has(\"0\");",
+							""
+						]
+					}
+				}
+			],
+
+			
+					
+					"request": {
+						"url": "http://localhost:3031/items/60a65636fc6e8c7a7847e70a",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "         {\n        \"id\": \"60a65636fc6e8c7a7847e70a\",\n        \"name\": \"{{name}}\",\n        \"description\": \"New York\",\n        \"amount\": 10,\n        \"availability\": true\n    }"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+
+			
+			
+		
+}

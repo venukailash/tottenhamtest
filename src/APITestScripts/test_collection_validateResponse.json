@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "af4de211-bfb7-42d7-9ed8-c1592ee1c7eb",
+		"name": "Collection1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "test_collection1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// let names = []",
+							"// _.each(pm.response.json(), (el) => names.push(el.name))",
+							"",
+							"// pm.environment.set(\"names\", JSON.stringify(names))",
+							"",
+							"// let ids = []",
+							"// _.each(pm.response.json(), (el) => ids.push(el.id))",
+							"",
+							"// pm.environment.set(\"ids\", JSON.stringify(ids))",
+							"",
+							"// let availabilities = []",
+							"// _.each(pm.response.json(), (el) => availabilities.push(el.availability))",
+							"",
+							"// pm.environment.set(\"availabilities\", JSON.stringify(availabilities))",
+							"// let descriptions = []",
+							"// _.each(pm.response.json(), (el) => descriptions.push(el.description))",
+							"",
+							"// pm.environment.set(\"descriptions\", JSON.stringify(descriptions))",
+							"// let amounts = []",
+							"// _.each(pm.response.json(), (el) => amounts.push(el.amount))",
+							"",
+							"// pm.environment.set(\"amounts\", JSON.stringify(amounts))",
+							"",
+							"pm.test(\"Response property matches environment variable\", function () {",
+							"",
+							"var jsonData = JSON.parse(responseBody);",
+							"var count = 0;",
+							"for (var i = 0;i<jsonData.length;i++) {",
+							"//console.log(\"Total Orders : \"+jsonData[0].name);",
+							"let names = JSON.parse(pm.environment.get('names'))",
+							"let descriptions = JSON.parse(pm.environment.get('descriptions'))",
+							"let availabilities = JSON.parse(pm.environment.get('availabilities'))",
+							"let ids = JSON.parse(pm.environment.get('ids'))",
+							"let amounts = JSON.parse(pm.environment.get('amounts'))",
+							"pm.expect(jsonData[i].name).to.eql(names[i]);",
+							"pm.expect(jsonData[i].description).to.eql(descriptions[i]);",
+							"pm.expect(jsonData[i].id).to.eql(ids[i]);",
+							"pm.expect(jsonData[i].amount).to.eql(amounts[i]);",
+							"pm.expect(jsonData[i].availability).to.eql(availabilities[i]);",
+							"count++;",
+							"}",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3031/items",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3031",
+					"path": [
+						"items"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
